@@ -40,7 +40,7 @@ class FlashcardScreen extends Component {
             height = {100}
             perspective={1000}
             flipHorizontal={true}
-            flipVertical={true}
+            flipVertical={false}
             flip={isFlipped}
           >
             <View style={styles.card}>
@@ -71,20 +71,24 @@ const styles = StyleSheet.create({
   },
   cardContainer: {
     width: 300,
-    height: 200,
+    maxHeight: 100,
   },
   card: {
      flex:1,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'white',
+    margin: 10, 
+    borderRadius: 20,
+
+
   },
   cardText: {
     fontSize: 20,
   },
   button: {
-    marginTop: 20,
-    backgroundColor: 'blue',
+    marginTop: 50,
+    backgroundColor: 'yellow',
     padding: 10,
     borderRadius: 5,
   },
