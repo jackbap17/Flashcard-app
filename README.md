@@ -11,8 +11,6 @@ React Native
 React Native Flipcards
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
 * [Udemy](https://www.udemy.com/)
 
 
