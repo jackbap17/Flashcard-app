@@ -7,15 +7,12 @@ import CardInputScreen from "./src/screens/FlashcardCreationScreen";
 
 const navigator = createStackNavigator(
   {
-    Home: HomeScreen,
-    Components: ComponentsScreen,
-    FlashCards: FlashcardScreen,
     CardInput: CardInputScreen
   },
   {
     initialRouteName: "CardInput",
     defaultNavigationOptions: {
-      //title: "App",
+      title: "Flashcards",
     },
   }
 );
